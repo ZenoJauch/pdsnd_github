@@ -346,6 +346,8 @@ def time_stats(df, city, month, day):
         
         plot_file_name = "start_hours_" + city + ".png"
         plt.savefig(plot_file_name)
+        full_path = os.path.abspath(pathname)
+        print("Plot stored locally: " + full_path + plot_file_name)
         
         plt.show()
     
@@ -411,6 +413,7 @@ def station_stats(df, city, month, day):
         
         plot_file_name = "start_end_stations_count_" + city + ".png"
         plt.savefig(plot_file_name)
+        print("Plot stored locally: " + full_path + plot_file_name)
         
         plt.show()
 
@@ -523,6 +526,7 @@ def user_stats(df, city, month, day):
             
             plot_file_name = "birth_year_count_" + city + ".png"
             plt.savefig(plot_file_name)
+            print("Plot stored locally: " + full_path + plot_file_name)
             
             plt.show()
             
