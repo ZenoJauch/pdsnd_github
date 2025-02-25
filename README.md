@@ -1,4 +1,4 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+>**Note**: This work was done as part of the Udacity Nanodegree programm **Programming for Data Science with Python**.
 
 ### Date created
 12:24 Dienstag, 25. Februar 2025
@@ -37,5 +37,6 @@ These files have to available in the directory where the Python file is loated.
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This repo is based on the following [Udacity repo](https://github.com/udacity/pdsnd_github).
+
 
