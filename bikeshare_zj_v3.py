@@ -343,6 +343,10 @@ def time_stats(df, city, month, day):
         plt.xlabel('Start Hour')
         plt.ylabel('Count')
         plt.title('Value Counts of bike trip start hours \nwith filter: city: {}, month: {}, day: {}.'.format(city, month, day))
+        
+        plot_file_name = "start_hours_" + city + ".png"
+        plt.savefig(plot_file_name)
+        
         plt.show()
     
     print_line()
@@ -404,6 +408,10 @@ def station_stats(df, city, month, day):
         plt.xticks(fontsize=8, rotation=45)
         #plt.xticks(ticks=np.arange(no_of_bars, 1), labels=labels)
         plt.title('Value Counts of start/end station combinations \nwith filter: city: {}, month: {}, day: {}.'.format(city, month, day))
+        
+        plot_file_name = "start_end_stations_count_" + city + ".png"
+        plt.savefig(plot_file_name)
+        
         plt.show()
 
     print_line()
@@ -512,6 +520,10 @@ def user_stats(df, city, month, day):
             plt.xticks(fontsize=8, rotation=45)
             #plt.xticks(ticks=np.arange(no_of_bars, 1), labels=labels)
             plt.title('Value Counts of birth years \nwith filter: city: {}, month: {}, day: {}.'.format(city, month, day))
+            
+            plot_file_name = "birth_year_count_" + city + ".png"
+            plt.savefig(plot_file_name)
+            
             plt.show()
             
         else:
