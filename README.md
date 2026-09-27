@@ -8,7 +8,7 @@
 ## Description
 This is a simple interactive Python script to explore data related to bike share systems for three major cities in the United States
 - Chicago, 
-- New York City, and 
+- New York City,
 - Washington.
 
 It allows the user to select the city and date filters.
@@ -49,7 +49,7 @@ The data for the 3 cities has to be made available in csv files named
 - `washington.csv`
 - `new_york_city.csv`
 
-These files have to available in the directory where the Python file is loated.
+These files have to be available in the directory where the Python file is located.
 
 
 ### Credits
